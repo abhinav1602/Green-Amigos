@@ -15,89 +15,80 @@
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
   </head>
-<body>
-    
-   
+  
+  <body>
     <div class="navbar-fixed">
       <nav>
         <div class="nav-wrapper container">
           <ul class="left hide-on-med-and-down" >
             <li><a href="index.html" class="caps">Home</a></li>
-            <li><a href="about.html" class="caps">About US</a></li>
+            <li><a href="about.html" class="caps">About Us</a></li>
             <li><a href="facts.html" class="caps">Facts</a></li>
             <li><a href="gallery.html" class="caps">Gallery</a></li>
-            <li class="active"><a href="contact.html" class="caps">Contact US</a></li>
+            <li class="active"><a href="contact.html" class="caps">Contact Us</a></li>
           </ul>
           <a id="logo-container" href="index.html" class="brand-logo custom-text right caps"><img src="logo.png" alt="Green Amigos" class="logo-icon"></a>
           
           <ul id="nav-mobile" class="side-nav">
             <li><a href="index.html" class="caps">Home</a></li>
-            <li><a href="about.html" class="caps">About US</a></li>
+            <li><a href="about.html" class="caps">About Us</a></li>
             <li><a href="facts.html" class="caps">Facts</a></li>
             <li><a href="gallery.html" class="caps">Gallery</a></li>
-            <li class="active"><a href="contact.html" class="caps">Contact US</a></li>
+            <li class="active"><a href="contact.html" class="caps">Contact Us</a></li>
           </ul>
           <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
         </div>
       </nav>
     </div>
-<br>
-   <div class="container" id="contactform">
-                <p class="custom-text caps" style="color:#263238;font-size:26px;">We'd love to help you </p>    
-                    <hr class="style11"><br>
-                    <form method="POST" action="http://formspree.io/greenamigoswm@gmail.com" id="qform" name="query_form" >
-                        <div class="row">
-    
-                            <div class="col l6 m6 s12">
-
-                                <div class="col l12 m12 s12">
-                                <div class="input-field">
-                                    <i class="material-icons prefix">perm_identity</i>
-                                    <input id="name" name="name" type="text" class="validate" required>
-                                    <label for="name" class="custom-text2">Name</label>
-                                </div>
-                                </div><br><br><br>
-
-                                <div class="col l12 m12 s12">
-                                <div class="input-field">
-                                    <i class="material-icons prefix">email</i>
-                                    <input id="email" name="email" type="email" class="validate" required>
-                                    <label for="email" class="custom-text2">Email</label>
-                                </div>
-                                </div><br><br><br>
-
-                                <div class="col l12 m12 s12">
-                                <div class="input-field">
-                                    <i class="material-icons prefix">phone</i>
-                                    <input id="phone" name="phone" type="tel" class="validate" required>
-                                    <label for="phone" class="custom-text2">Phone</label>
-                                </div>
-                                </div><br><br><br>
-
-                              
-
-                            </div>
-
-                            <div class="col l6 m6 s12">
-                                
-
-                                <div class="col l12 m12 s12">
-                                <div class="input-field">
-                                    <i class="material-icons prefix">message</i>
-                                    <textarea id="qry" name="query" class="materialize-textarea" required style="min-height:128px;"></textarea>
-                                    <label for="qry" class="custom-text2">Write your query...</label>
-                                </div><br>
-                                
-                                </div>
-                            </div>
-                            </div>
-                            <center><input type="submit" name="submit" class="green darken-5 btn custom-text2" style="width:40%;border-radius:5px;"></center>
-                            
-                    </form>
-                    <hr class="style11">
-                    <br>
-                </div>
-<br><br>
+    <br>
+    <div class="container" id="contactform">
+      <p class="custom-text caps" style="color:#263238;font-size:26px;">We'd love to help you </p>
+      <hr class="style11"><br>
+      <form method="POST" action="http://formspree.io/greenamigoswm@gmail.com" id="qform" name="query_form" >
+        <div class="row">
+          
+          <div class="col l6 m6 s12">
+            <div class="col l12 m12 s12">
+              <div class="input-field">
+                <i class="material-icons prefix">perm_identity</i>
+                <input id="name" name="name" type="text" class="validate" required>
+                <label for="name" class="custom-text2">Name</label>
+              </div>
+            </div><br><br><br>
+            <div class="col l12 m12 s12">
+              <div class="input-field">
+                <i class="material-icons prefix">email</i>
+                <input id="email" name="email" type="email" class="validate" required>
+                <label for="email" class="custom-text2">Email</label>
+              </div>
+            </div><br><br><br>
+            <div class="col l12 m12 s12">
+              <div class="input-field">
+                <i class="material-icons prefix">phone</i>
+                <input id="phone" name="phone" type="tel" class="validate" required>
+                <label for="phone" class="custom-text2">Phone</label>
+              </div>
+            </div><br><br><br>
+          </div>
+          <div class="col l6 m6 s12">
+            
+            <div class="col l12 m12 s12">
+              <div class="input-field">
+                <i class="material-icons prefix">message</i>
+                <textarea id="qry" name="query" class="materialize-textarea" required style="min-height:128px;"></textarea>
+                <label for="qry" class="custom-text2">Write your query...</label>
+              </div><br>
+              
+            </div>
+          </div>
+        </div>
+        <center><input type="submit" name="submit" class="green darken-5 btn custom-text2" style="width:40%;border-radius:5px;"></center>
+        
+      </form>
+      <hr class="style11">
+      <br>
+    </div>
+    <br><br>
     <footer class="page-footer">
       <div class="container">
         <div class="row">
@@ -110,10 +101,10 @@
           <div class="col l3 offset-l1 s12 m3 offset-m1">
             <h6 class="green-text"><strong>Our Links</strong></h6>
             <ul>
-            <li><a href="about.html" class="caps white-text">About US</a></li>
-            <li><a href="facts.html" class="caps white-text">Facts</a></li>
-            <li><a href="gallery.html" class="caps white-text">Gallery</a></li>
-            <li><a href="contact.html" class="caps white-text">Contact US</a></li>
+              <li><a href="about.html" class="caps white-text">About Us</a></li>
+              <li><a href="facts.html" class="caps white-text">Facts</a></li>
+              <li><a href="gallery.html" class="caps white-text">Gallery</a></li>
+              <li><a href="contact.html" class="caps white-text">Contact Us</a></li>
             </ul>
           </div>
           
@@ -141,9 +132,9 @@
         </div>
       </div>
     </footer>
-   
+    
     <script>
-         $(".dropdown-button").dropdown({
+    $(".dropdown-button").dropdown({
     hover:true,
     constrain_width: true,
     gutter: 0,
@@ -151,6 +142,5 @@
     });
     $('.button-collapse').sideNav();
     </script>
-    </body>
-    </html>
-  
+  </body>
+</html>

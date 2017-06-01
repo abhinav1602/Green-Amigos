@@ -14,69 +14,56 @@
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
     <!-- Import Library for Chart -->
-      <script src="https://code.highcharts.com/highcharts.js"></script>
-      <script src="https://code.highcharts.com/highcharts-3d.js"></script>
-      <script src="https://code.highcharts.com/modules/data.js"></script>
-      <script src="https://code.highcharts.com/modules/drilldown.js"></script>
-    
-
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/highcharts-3d.js"></script>
+    <script src="https://code.highcharts.com/modules/data.js"></script>
+    <script src="https://code.highcharts.com/modules/drilldown.js"></script>
     <!-- For Material Icons -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
   </head>
-<body onload="init();">
-    
-   
+  <body onload="init();">
     <div class="navbar-fixed">
       <nav>
         <div class="nav-wrapper container">
           <ul class="left hide-on-med-and-down" >
             <li><a href="index.html" class="caps">Home</a></li>
-            <li><a href="about.html" class="caps">About US</a></li>
+            <li><a href="about.html" class="caps">About Us</a></li>
             <li class="active"><a href="facts.html" class="caps">Facts</a></li>
             <li><a href="gallery.html" class="caps">Gallery</a></li>
-            <li><a href="contact.html" class="caps">Contact US</a></li>
+            <li><a href="contact.html" class="caps">Contact Us</a></li>
           </ul>
           <a id="logo-container" href="index.html" class="brand-logo custom-text right caps"><img src="logo.png" alt="Green Amigos" class="logo-icon"></a>
           
           <ul id="nav-mobile" class="side-nav">
             <li><a href="index.html" class="caps">Home</a></li>
-            <li><a href="about.html" class="caps">About US</a></li>
+            <li><a href="about.html" class="caps">About Us</a></li>
             <li class="active"><a href="facts.html" class="caps">Facts</a></li>
             <li><a href="gallery.html" class="caps">Gallery</a></li>
-            <li><a href="contact.html" class="caps">Contact US</a></li>
+            <li><a href="contact.html" class="caps">Contact Us</a></li>
           </ul>
           <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
         </div>
       </nav>
     </div>
-
     <div class="row main" id="main">
-
-          <div class="col s12 m6 l6">
-            <h4 class="center caps custom-text2">Raw Material</h4>
-            <div id="raw" style="height: 450px"></div>
-          </div>
-
-          <div class="col s10 m6 l6">
-            <h4 class="center caps custom-text2">Paper Generated</h4>
-            <div id="paper" style="height: 450px"></div>
-          </div>
-
-          <div class="col s10 m6 l6">
-            <h4 class="center caps custom-text2">Quantity Recovered</h4>
-            <div id="quantity" style="height: 450px"></div>
-          </div>
-
-          <div class="col s10 m6 l6">
-            <h4 class="center caps custom-text2">Percentage Recovery</h4>
-            <div id="country" style="height: 450px"></div>
-          </div>
-
-
+      <div class="col s12 m6 l6">
+        <h4 class="center caps custom-text2">Raw Material</h4>
+        <div id="raw" style="height: 450px"></div>
       </div>
-
-   
+      <div class="col s10 m6 l6">
+        <h4 class="center caps custom-text2">Paper Generated</h4>
+        <div id="paper" style="height: 450px"></div>
+      </div>
+      <div class="col s10 m6 l6">
+        <h4 class="center caps custom-text2">Quantity Recovered</h4>
+        <div id="quantity" style="height: 450px"></div>
+      </div>
+      <div class="col s10 m6 l6">
+        <h4 class="center caps custom-text2">Percentage Recovery</h4>
+        <div id="country" style="height: 450px"></div>
+      </div>
+    </div>
+    
     <footer class="page-footer">
       <div class="container">
         <div class="row">
@@ -89,10 +76,10 @@
           <div class="col l3 offset-l1 s12 m3 offset-m1">
             <h6 class="green-text"><strong>Our Links</strong></h6>
             <ul>
-            <li><a href="about.html" class="caps white-text">About US</a></li>
-            <li><a href="facts.html" class="caps white-text">Facts</a></li>
-            <li><a href="gallery.html" class="caps white-text">Gallery</a></li>
-            <li><a href="contact.html" class="caps white-text">Contact US</a></li>
+              <li><a href="about.html" class="caps white-text">About Us</a></li>
+              <li><a href="facts.html" class="caps white-text">Facts</a></li>
+              <li><a href="gallery.html" class="caps white-text">Gallery</a></li>
+              <li><a href="contact.html" class="caps white-text">Contact Us</a></li>
             </ul>
           </div>
           
@@ -120,12 +107,11 @@
         </div>
       </div>
     </footer>
-   
+    
     <!--Custom Scripts -->
     <script src="js/app.js"></script>
-
     <script>
-         $(".dropdown-button").dropdown({
+    $(".dropdown-button").dropdown({
     hover:true,
     constrain_width: true,
     gutter: 0,
@@ -133,6 +119,5 @@
     });
     $('.button-collapse').sideNav();
     </script>
-    </body>
-    </html>
-  
+  </body>
+</html>
