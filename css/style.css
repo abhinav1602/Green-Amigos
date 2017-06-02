@@ -45,8 +45,8 @@ nav a{color:#558b2f;font-size:18px;}
 		cursor:url(../leaf.png), auto;
 	}
 	#tree{
-    margin-top: 59px;
-  	margin-left:20%;
+    margin-top: 75px;
+  	margin-left:24%;
   	height:140px;
   	width:182px;
 	}
@@ -77,18 +77,18 @@ nav a{color:#558b2f;font-size:18px;}
 @media only screen and (max-width:1024px) {
 	#tree{
     margin-top: 59px;
-  	margin-left:28%;
-  	height:340px;
-  	width:272px;
+  	margin-left:20%;
+  	height:335px;
+  	width:335px;
 	}
 }
 @media only screen and (max-width:499px) {
 	
 	.slider {
-		min-height:370px;
+		min-height:390px;
 	}
 	#tree {
-		margin-left:30%;
+		margin-left:25%;
 		height:140px;
   	width:182px;
 	}
