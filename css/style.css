@@ -14,6 +14,11 @@ nav{margin-top:-25px;
 	float:right;
 
 }
+#client-img-col #info{visibility:hidden;position:absolute;z-index: 1;border-radius: 6px;margin-top:150px;
+	margin-left: 5px;
+    padding: 5px 0;background-color: black;text-align: center;width:200px;}
+#client-img-col:hover #info{visibility: visible;}
+blockquote{border-left:5px solid #558b2f}
 .custom-text2{font-family:'Ropa Sans',sans-serif;}
 nav li :hover{border-bottom: 4px solid green;color:white;}
 nav li a{color:#558b2f;font-size:18px;}
@@ -31,15 +36,14 @@ nav a{color:#558b2f;font-size:18px;}
 .gallery{margin-bottom:0.05rem;}
 #big1,#big2{float:left;box-sizing:border-box;padding:0 0.05rem;margin-bottom:0.05rem;max-height:360px;overflow:hidden}
 .image{transition:all .5s;}
+
 .image:hover {transform:scale(1.2);display:block;overflow: hidden}
 .logo-icon {
 	margin-top:8px;
 	height:54px;
 	width:64px;
 }
-.image{
-	
-}
+
 @media only screen and (min-width:760px) {
 	.anim,.anim1{
 		cursor:url(../leaf.png), auto;
@@ -74,6 +78,10 @@ nav a{color:#558b2f;font-size:18px;}
 
 }
 }
+.client-img{
+	max-height: 280px;
+	width: 100%;
+}
 @media only screen and (max-width:1024px) {
 	#tree{
     margin-top: 59px;
@@ -83,6 +91,10 @@ nav a{color:#558b2f;font-size:18px;}
 	}
 }
 @media only screen and (max-width:499px) {
+	.client-img{
+	max-height: 290px;
+	width: 100%;
+}
 	
 	.slider {
 		min-height:390px;
