@@ -27,7 +27,7 @@ angular.module('myApp',[]).controller('clientsCtrl',function($scope){
 		},
 		{ location : 'Chaddha electric works' , 
 		  msg :"Great Job Chaddha electric works, Allahabad! We thank you for joining us in our stand to protect the environment. The city is proud of you.",
-		  img : 'chaddha_electric_works',
+		  img : 'Chaddha_electric_works',
 		  key1 : 'Recyclable Material : ',
 		  key2 : '',
 		  value1 : '91 kg',
