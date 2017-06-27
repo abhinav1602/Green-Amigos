@@ -4,11 +4,11 @@ angular.module('myApp', []).controller('clientsCtrl', function($scope) {
             msg: "Congratulations to Raymond's civil lines Allahabad branch on being the first of many on joining the revolutionary wave of Green Amigos. Their valiant contributions in our humble efforts to save the environment are truly appreciated and something to be proud of.",
             img: 'raymond',
             key1: 'Duplex : ',
-            key2: 'Old corrugated containers : ',
-            key3: 'Cartons : ',
+            key2: 'Cartons : ',
+            key3: '',
             value1: '33.705 kg',
-            value2: '79.47 kg',
-            value3: '26.85 kg'
+            value2: '106.32 kg',
+            value3: ''
         }, {
             location: 'Killer, Civil Lines, Allahabad',
             msg: "Great Job Killer, Allahabad! We thank you for joining us in our stand to protect the environment. The city is proud of you.",
