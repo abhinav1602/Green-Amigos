@@ -79,6 +79,16 @@ angular.module('myApp', []).controller('clientsCtrl', function($scope) {
             value1: '91 kg',
             value2: '',
             value3: ''
+        }, {
+            location: 'Housing, Allahabad',
+            msg: "",
+            img: 'housing',
+            key1: 'Recyclable Material : ',
+            key2: '',
+            key3: '',
+            value1: '660 kg',
+            value2: '',
+            value3: ''
         }
     ];
 });
