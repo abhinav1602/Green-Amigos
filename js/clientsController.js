@@ -81,7 +81,7 @@ angular.module('myApp', []).controller('clientsCtrl', function($scope) {
             value3: ''
         }, {
             location: 'Housing, Allahabad',
-            msg: "",
+            msg: "Households",
             img: 'housing',
             key1: 'Recyclable Material : ',
             key2: '',
