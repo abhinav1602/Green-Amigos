@@ -81,6 +81,7 @@ nav a{color:#558b2f;font-size:18px;}
 }
 .client-img{
 	max-height: 280px;
+	min-height: 280px;
 	width: 100%;
 }
 @media only screen and (max-width:1024px) {
@@ -93,7 +94,8 @@ nav a{color:#558b2f;font-size:18px;}
 }
 @media only screen and (max-width:499px) {
 	.client-img{
-	max-height: 290px;
+	max-height: 280px;
+	min-height: 280px;
 	width: 100%;
 }
 	

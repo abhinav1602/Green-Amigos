@@ -1,7 +1,7 @@
 angular.module('myApp', []).controller('clientsCtrl', function($scope) {
     $scope.clients = [{
             location: 'Raymonds, Civil Lines, Allahabad',
-            msg: "Congratulations to Raymond's civil lines Allahabad branch on being the first of many on joining the revolutionary wave of Green Amigos. Their valiant contributions in our humble efforts to save the environment are truly appreciated and something to be proud of.",
+            title: 'Raymond',
             img: 'raymond',
             key1: 'Duplex : ',
             key2: 'Cartons : ',
@@ -11,7 +11,7 @@ angular.module('myApp', []).controller('clientsCtrl', function($scope) {
             value3: ''
         }, {
             location: 'Killer, Civil Lines, Allahabad',
-            msg: "Great Job Killer, Allahabad! We thank you for joining us in our stand to protect the environment. The city is proud of you.",
+            title: 'Killer',
             img: 'killer',
             key1: 'Cartons : ',
             key2: '',
@@ -21,7 +21,7 @@ angular.module('myApp', []).controller('clientsCtrl', function($scope) {
             value3: ''
         },  {
             location: 'Arrow, Civil Lines, Allahabad',
-            msg: "Great Arrow, Allahabad! We thank you for joining us in our stand to protect the environment. The city is proud of you.",
+            title: 'Arrow',
             img: 'arrow',
             key1: 'Cartons : ',
             key2: '',
@@ -31,7 +31,7 @@ angular.module('myApp', []).controller('clientsCtrl', function($scope) {
             value3: ''
         }, {
             location: 'Linerty, Civil Lines, Allahabad',
-            msg: "Great Job Liberty, Allahabad! We thank you for joining us in our stand to protect the environment. The city is proud of you.",
+            title: 'Liberty',
             img: 'liberty',
             key1: 'Cartons : ',
             key2: '',
@@ -41,7 +41,7 @@ angular.module('myApp', []).controller('clientsCtrl', function($scope) {
             value3: ''
         }, {
             location: 'Maharaja Footwear KP Kakkar Road,South Malaka ,Allahabad',
-            msg: "Great Job Maharaja Footwear, Allahabad! We thank you for joining us in our stand to protect the environment. The city is proud of you.",
+            title: 'Maharaja Footwear',
             img: 'maharaja',
             key1: 'Recyclable Material : ',
             key2: '',
@@ -51,7 +51,7 @@ angular.module('myApp', []).controller('clientsCtrl', function($scope) {
             value3: ''
         }, {
             location: 'Sasta Mart, Civil Lines, Allahabad',
-            msg: "Great Job Sasta Mart, Allahabad! We thank you for joining us in our stand to protect the environment. The city is proud of you.",
+            title: 'Sasta Mart',
             img: 'sasta_mart',
             key1: 'Duplex : ',
             key2: 'Cartons : ',
@@ -61,7 +61,7 @@ angular.module('myApp', []).controller('clientsCtrl', function($scope) {
             value3: '13.35 kg'
         }, {
             location: 'Anant Bazaar,Naini ,Allahabad',
-            msg: "Great Job Anant Bazaar, Allahabad! We thank you for joining us in our stand to protect the environment. The city is proud of you.",
+            title: 'Anant Bazaar',
             img: 'anant_bazaar',
             key1: 'Recyclable Material : ',
             key2: '',
@@ -71,7 +71,7 @@ angular.module('myApp', []).controller('clientsCtrl', function($scope) {
             value3: ''
         }, {
             location: 'Chaddha electric works',
-            msg: "Great Job Chaddha electric works, Allahabad! We thank you for joining us in our stand to protect the environment. The city is proud of you.",
+            title: 'Chaddha electic works',
             img: 'Chaddha_electric_works',
             key1: 'Recyclable Material : ',
             key2: '',
@@ -81,7 +81,7 @@ angular.module('myApp', []).controller('clientsCtrl', function($scope) {
             value3: ''
         }, {
             location: 'Housing, Allahabad',
-            msg: "Households",
+            title: 'Housing',
             img: 'housing',
             key1: 'Recyclable Material : ',
             key2: '',

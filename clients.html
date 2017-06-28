@@ -54,23 +54,26 @@
     </div>
     <br>
 
-    <div class="container" ng-app="myApp" ng-controller="clientsCtrl" >
-      <div class="card-panel" ng-repeat = "x in clients">
-        <div class="row">
-          <div class="col l4 m4 s12" style="overflow: hidden" id="client-img-col">
+    <div class="container row" ng-app="myApp" ng-controller="clientsCtrl" >
+      <div class="col l4 m4 s12" ng-repeat = "x in clients">
+        <div class="card" style="max-height:340px;min-height: 340px;">
+          <div class="card-image" style="overflow: hidden" id="client-img-col">
             <span id="info" class=" white-text custom-text2">{{ x.location }} </span>
-          <img src="clients/{{x.img}}.jpg" class="client-img image" alt="{{x.location}}"></div>
-          <div class="col l8 m8 s12"><p class="custom-text2" style="font-size: 24px;text-align:justify">
-            {{x.msg}}
-          </p>
-          <p class="custom-text2" style="font-size: 20px;line-height: 23%">{{x.key1}}<b>{{x.value1}}</b></p>
-          <p class="custom-text2" style="font-size: 20px;line-height: 23%">{{x.key2}}<b>{{x.value2}}</b></p>
-          <p class="custom-text2" style="font-size: 20px;line-height: 23%">{{x.key3}}<b>{{x.value3}}</b></p>
+            <img src="clients/{{x.img}}.jpg" class="client-img image" alt="{{x.location}}">
+          </div>
+          <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4 custom-text2" style="font-size:21px;line-height: 50%">{{x.title}}<i class="material-icons right green-text">more_vert</i></span>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4 custom-text2">{{x.title}}<i class="material-icons right red-text">close</i></span>
+            <p class="custom-text2" style="color:red;font-size: 20px;">{{x.key1}}<b style="color:green">{{x.value1}}</b></p>
+            <p class="custom-text2" style="color:red;font-size: 20px;">{{x.key2}}<b style="color:green">{{x.value2}}</b></p>
+            <p class="custom-text2" style="color:red;font-size: 20px;">{{x.key3}}<b style="color:green">{{x.value3}}</b></p>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-  
+
   <footer class="page-footer">
     <div class="container">
       <div class="row">
