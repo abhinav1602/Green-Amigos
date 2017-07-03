@@ -3,7 +3,9 @@ body{
 	background-color:white;
 	background:#fafafa;
 }
-
+#home_page{
+	background:white; 
+}
 nav{margin-top:-25px;
 	background:#fafafa;
 	font-family:'Ropa Sans',sans-serif;
@@ -91,6 +93,7 @@ nav a{color:#558b2f;font-size:18px;}
   	height:335px;
   	width:335px;
 	}
+	
 }
 @media only screen and (max-width:499px) {
 	.client-img{
