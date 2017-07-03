@@ -6,9 +6,15 @@ angular.module('myApp', []).controller('clientsCtrl', function($scope) {
             key1: 'Duplex : ',
             key2: 'Cartons : ',
             key3: '',
+            key4: '',
+            key5: '',
+            key6: '',
             value1: '33.705 kg',
             value2: '106.32 kg',
-            value3: ''
+            value3: '',
+            value4: '',
+            value5: '',
+            value6: ''
         }, {
             location: 'Killer, Civil Lines, Allahabad',
             title: 'Killer',
@@ -16,9 +22,15 @@ angular.module('myApp', []).controller('clientsCtrl', function($scope) {
             key1: 'Cartons : ',
             key2: '',
             key3: '',
+            key4: '',
+            key5: '',
+            key6: '',
             value1: '7 kg',
             value2: '',
-            value3: ''
+            value3: '',
+            value4: '',
+            value5: '',
+            value6: ''
         },  {
             location: 'Arrow, Civil Lines, Allahabad',
             title: 'Arrow',
@@ -26,9 +38,15 @@ angular.module('myApp', []).controller('clientsCtrl', function($scope) {
             key1: 'Cartons : ',
             key2: '',
             key3: '',
+            key4: '',
+            key5: '',
+            key6: '',
             value1: '16.67 kg',
             value2: '',
-            value3: ''
+            value3: '',
+            value4: '',
+            value5: '',
+            value6: ''
         }, {
             location: 'Linerty, Civil Lines, Allahabad',
             title: 'Liberty',
@@ -36,9 +54,15 @@ angular.module('myApp', []).controller('clientsCtrl', function($scope) {
             key1: 'Cartons : ',
             key2: '',
             key3: '',
+            key4: '',
+            key5: '',
+            key6: '',
             value1: '30 kg',
             value2: '',
-            value3: ''
+            value3: '',
+            value4: '',
+            value5: '',
+            value6: ''
         }, {
             location: 'Maharaja Footwear KP Kakkar Road,South Malaka ,Allahabad',
             title: 'Maharaja Footwear',
@@ -46,9 +70,15 @@ angular.module('myApp', []).controller('clientsCtrl', function($scope) {
             key1: 'Recyclable Material : ',
             key2: '',
             key3: '',
+            key4: '',
+            key5: '',
+            key6: '',
             value1: '150 kg',
             value2: '',
-            value3: ''
+            value3: '',
+            value4: '',
+            value5: '',
+            value6: ''
         }, {
             location: 'Sasta Mart, Civil Lines, Allahabad',
             title: 'Sasta Mart',
@@ -56,9 +86,15 @@ angular.module('myApp', []).controller('clientsCtrl', function($scope) {
             key1: 'Duplex : ',
             key2: 'Cartons : ',
             key3: 'Polythene : ',
+            key4: '',
+            key5: '',
+            key6: '',
             value1: '13.54 kg',
             value2: '37 kg',
-            value3: '13.35 kg'
+            value3: '13.35 kg',
+            value4: '',
+            value5: '',
+            value6: ''
         }, {
             location: 'Anant Bazaar,Naini ,Allahabad',
             title: 'Anant Bazaar',
@@ -66,9 +102,15 @@ angular.module('myApp', []).controller('clientsCtrl', function($scope) {
             key1: 'Recyclable Material : ',
             key2: '',
             key3: '',
+            key4: '',
+            key5: '',
+            key6: '',
             value1: '22 kg',
             value2: '',
-            value3: ''
+            value3: '',
+            value4: '',
+            value5: '',
+            value6: ''
         }, {
             location: 'Chaddha electric works',
             title: 'Chaddha electic works',
@@ -76,9 +118,15 @@ angular.module('myApp', []).controller('clientsCtrl', function($scope) {
             key1: 'Recyclable Material : ',
             key2: '',
             key3: '',
+            key4: '',
+            key5: '',
+            key6: '',
             value1: '91 kg',
             value2: '',
-            value3: ''
+            value3: '',
+            value4: '',
+            value5: '',
+            value6: ''
         }, {
             location: 'Housing, Allahabad',
             title: 'Housing',
@@ -86,9 +134,47 @@ angular.module('myApp', []).controller('clientsCtrl', function($scope) {
             key1: 'Recyclable Material : ',
             key2: '',
             key3: '',
+            key4: '',
+            key5: '',
+            key6: '',
             value1: '660 kg',
             value2: '',
-            value3: ''
+            value3: '',
+            value4: '',
+            value5: '',
+            value6: ''
+        }, {
+            location: 'Motilal & Sons, Allahabad',
+            title: 'Motilal & Sons',
+            img: 'mns',
+            key1: 'Cartons : ',
+            key2: 'Polythene : ',
+            key3: '',
+            key4: '',
+            key5: '',
+            key6: '',
+            value1: '228.200 kg',
+            value2: '4.3 kg',
+            value3: '',
+            value4: '',
+            value5: '',
+            value6: ''
+        }, {
+            location: 'Prince Dresses, Allahabad',
+            title: 'Prince Dresses',
+            img: 'prince',
+            key1: 'Mix : ',
+            key2: 'Duplex : ',
+            key3: 'Books : ',
+            key4: 'Cartons : ',
+            key5: 'Newsprint : ',
+            key6: 'Polythene : ',
+            value1: '148.465 kg',
+            value2: '141.445 kg',
+            value3: '32.530 kg',
+            value4: '15.695 kg',
+            value5: '14.295 kg',
+            value6: '72.730 kg'
         }
     ];
 });
