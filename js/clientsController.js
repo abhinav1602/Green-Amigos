@@ -240,6 +240,38 @@ angular.module('myApp', []).controller('clientsCtrl', function($scope) {
             value4: '',
             value5: '',
             value6: '1.945 kg'
+        },{
+            location: 'Saree Sansar, Allahabad',
+            title: 'Ma Vidyavasini Saree Sansar',
+            img: 'saree',
+            key1: 'Carton : ',
+            key2: 'Mix : ',
+            key3: 'Polythene : ',
+            key4: 'Duplex : ',
+            key5: '',
+            key6: '',
+            value1: '14.975 kg',
+            value2: '17.83 kg',
+            value3: '10 kg',
+            value4: '5.160 kg',
+            value5: '',
+            value6: ''
+        },{
+            location: 'Kesarwani Electricals, Allahabad',
+            title: 'Kesarwani Electricals',
+            img: 'kesarwani',
+            key1: 'Carton : ',
+            key2: 'Polythene : ',
+            key3: 'Mix : ',
+            key4: '',
+            key5: '',
+            key6: '',
+            value1: '65.522 kg',
+            value2: '2.008 kg',
+            value3: '18.200 kg',
+            value4: '',
+            value5: '',
+            value6: ''
         }
     ];
 });
