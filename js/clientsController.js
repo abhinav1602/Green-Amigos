@@ -1,4 +1,13 @@
 angular.module('myApp', []).controller('clientsCtrl', function($scope) {
+$scope.quotations = [ { key : 'Duplex', value : '7.5' },
+                      { key : 'A4 Paper', value : '8' },
+                      { key : 'Books', value : '8'}, 
+                      { key : 'Folding Cartons', value : '8'}, 
+                      { key : 'White Paper Copies', value : '8.5'}, 
+                      { key : 'Old Corrugated Containers (Cartons)', value : '10'}, 
+                      { key : 'Newsprint', value : '10' },
+                      { key : 'Polythene', value : '22' } ];
+
     $scope.clients = [{
             location: 'Raymonds, Civil Lines, Allahabad',
             title: 'Raymond',
