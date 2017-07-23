@@ -1,20 +1,20 @@
-var i = 0,j = 0;
+var i = 0,j = 0,tree = 71, clients = 20;
 function start() {
   	
-  	if(i>39) 
-  		i = 39;
-    if(j>18)
-      j = 18;
+  	if(i>tree) 
+  		i = tree;
+    if(j>clients)
+      j = clients;
 
 setTimeout(function() {
   document.getElementById('field1').innerHTML=i;
 document.getElementById('field2').innerHTML=j;
-  if(i<39)
+  if(i<tree)
   	i++;
-  if(j<18)
+  if(j<clients)
     j++;
   
-if(  i!=39	|| j!=18 )
+if(  i!=tree	|| j!=clients )
 	start();
-}, 900);
+}, 800);
 }
