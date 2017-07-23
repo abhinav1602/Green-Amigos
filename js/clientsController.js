@@ -89,7 +89,7 @@ $scope.quotations = [ { key : 'Duplex', value : '7.5' },
             value5: '',
             value6: ''
         },{
-            location: '',
+            location: 'Civil Lines, Allahabad',
             title: 'Lenovo',
             img: 'lenovo',
             key1: 'Paper Waste : ',
