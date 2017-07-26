@@ -1,4 +1,6 @@
 angular.module('myApp', []).controller('clientsCtrl', function($scope) {
+$scope.total = 4526.51;
+$scope.trees = 76;
 $scope.quotations = [ { key : 'Duplex', value : '7.5' },
                       { key : 'A4 Paper', value : '8' },
                       { key : 'Books', value : '8'}, 
@@ -41,6 +43,22 @@ $scope.quotations = [ { key : 'Duplex', value : '7.5' },
             value5: '',
             value6: ''
         },  {
+            location: 'Adidas, Civil Lines, Allahabad',
+            title: 'Adidas',
+            img: 'adidas',
+            key1: 'Cartons : ',
+            key2: 'Polythene : ',
+            key3: '',
+            key4: '',
+            key5: '',
+            key6: '',
+            value1: '40 kg',
+            value2: '0.40 kg',
+            value3: '',
+            value4: '',
+            value5: '',
+            value6: ''
+        },{
             location: 'Arrow, Civil Lines, Allahabad',
             title: 'Arrow',
             img: 'arrow',
@@ -57,7 +75,7 @@ $scope.quotations = [ { key : 'Duplex', value : '7.5' },
             value5: '',
             value6: ''
         }, {
-            location: 'Linerty, Civil Lines, Allahabad',
+            location: 'Liberty, Civil Lines, Allahabad',
             title: 'Liberty',
             img: 'liberty',
             key1: 'Cartons : ',
