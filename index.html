@@ -75,25 +75,22 @@
             </ul>
         </div>
         <div ng-app="myApp" ng-controller="clientsCtrl">
-        <marquee scroll delay=10 bgcolor="#33691e" class="white-text custom-text2" style="font-size:23px">
-        We buy all types of scrap paper
-        &nbsp;&nbsp;&nbsp;&nbsp;  &#9679; &nbsp;&nbsp;&nbsp;&nbsp;
-        Our Clients &nbsp;&nbsp;: &nbsp;&nbsp;
-        <ul style="display:inline">
-        <li ng-repeat = "x in clients" style= "display:inline">
-        {{x.title}} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        </li>
-        </ul>
-        Total recycled material &nbsp;&nbsp;: &nbsp;&nbsp; {{total}} kg
-        &nbsp;&nbsp;&nbsp;&nbsp;  &#9679; &nbsp;&nbsp;&nbsp;&nbsp;
-        Our dear Clients , spread the news ! Be proud ! Your valiant efforts have helped Green Amigos in saving <span>{{trees}}</span> trees . And the number is overgrowing . Now that's what we call a cause to celebrate . We express our gratitude and hope you keep contributing to this noble cause .
-        </marquee>
+            <marquee scroll delay=10 bgcolor="#33691e" class="white-text custom-text2" style="font-size:23px">
+            We buy all types of scrap paper
+            &nbsp;&nbsp;&nbsp;&nbsp;  &#9679; &nbsp;&nbsp;&nbsp;&nbsp;
+            Our Clients &nbsp;&nbsp;: &nbsp;&nbsp;
+            <ul style="display:inline">
+                <li ng-repeat = "x in clients" style= "display:inline">
+                    {{x.title}} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </li>
+            </ul>
+            Total recycled material &nbsp;&nbsp;: &nbsp;&nbsp; {{total}} kg
+            &nbsp;&nbsp;&nbsp;&nbsp;  &#9679; &nbsp;&nbsp;&nbsp;&nbsp;
+            Our dear Clients , spread the news ! Be proud ! Your valiant efforts have helped Green Amigos in saving <span>{{trees}}</span> trees . And the number is overgrowing . Now that's what we call a cause to celebrate . We express our gratitude and hope you keep contributing to this noble cause .
+            </marquee>
         </div>
-
         <div class="row" id="anims">
-
             <div class="col l4 m6 s12">
-
                 <center style="margin-top:35px">
                 
                 <div class="row">
@@ -104,9 +101,7 @@
                         <p class="custom-text2 center flow_chart" style="display:none;font-size: 28px">Source</p>
                     </div>
                 </div>
-
                 <div class="col l8 offset-l4 m8 offset-m4 s8 offset-s4" style="color:#00695c"><b><i class="material-icons small" style="transform: rotate(180deg)">navigation</i></b></div>
-
                 <div class="row">
                     <div class="col l4 m4 s4" style="padding:8px">
                         <i class="material-icons large right">import_export</i>
@@ -115,9 +110,7 @@
                         <p class="custom-text2 center green-text text-darken-2 flow_chart" style="display:none;font-size: 34px">Green Amigos</p>
                     </div>
                 </div>
-
                 <div class="col l8 offset-l4 m8 offset-m4 s8 offset-s4" style="color:#00695c"><b><i class="material-icons small" style="transform: rotate(180deg)">navigation</i></b></div>
-
                 <div class="row">
                     <div class="col l4 m4 s4" style="padding-right:10px;padding-top: 15px">
                         <img src="icons/factory.svg" class="right green-text" height="60" width="60" >
@@ -160,6 +153,7 @@
             </div>
         </div>
         <br>
+        
         <footer class="page-footer">
             <div class="container">
                 <div class="row">
@@ -212,14 +206,15 @@
                 </div>
             </div>
         </footer>
+    
         <script>
         $(document).ready(function() {
         $(window).scroll(function() {
         var scroll = $(window).scrollTop();
         if (scroll*2.5 >= $("#anims").offset().top ){
-            start();
-            $(".flow_chart").slideDown("slow");
-           } 
+        start();
+        $(".flow_chart").slideDown("slow");
+        }
         
         });
         // build scene

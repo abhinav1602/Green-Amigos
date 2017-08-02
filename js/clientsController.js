@@ -1,6 +1,6 @@
 angular.module('myApp', []).controller('clientsCtrl', function($scope) {
-$scope.total = 4526.51;
-$scope.trees = 76;
+$scope.total = 5285.83;
+$scope.trees = 89;
 $scope.quotations = [ { key : 'Duplex', value : '7.5' },
                       { key : 'A4 Paper', value : '8' },
                       { key : 'Books', value : '8'}, 
@@ -10,7 +10,7 @@ $scope.quotations = [ { key : 'Duplex', value : '7.5' },
                       { key : 'Newsprint', value : '10' },
                       { key : 'Polythene', value : '22' } ];
 
-    $scope.clients = [{
+$scope.clients = [{
             location: 'Raymonds, Civil Lines, Allahabad',
             title: 'Raymond',
             img: 'raymond',
@@ -26,7 +26,7 @@ $scope.quotations = [ { key : 'Duplex', value : '7.5' },
             value4: '',
             value5: '',
             value6: ''
-        }, {
+        },{
             location: 'Killer, Civil Lines, Allahabad',
             title: 'Killer',
             img: 'killer',
@@ -42,7 +42,7 @@ $scope.quotations = [ { key : 'Duplex', value : '7.5' },
             value4: '',
             value5: '',
             value6: ''
-        },  {
+        },{
             location: 'Adidas, Civil Lines, Allahabad',
             title: 'Adidas',
             img: 'adidas',
@@ -52,8 +52,8 @@ $scope.quotations = [ { key : 'Duplex', value : '7.5' },
             key4: '',
             key5: '',
             key6: '',
-            value1: '40 kg',
-            value2: '0.40 kg',
+            value1: '87.545 kg',
+            value2: '2.98 kg',
             value3: '',
             value4: '',
             value5: '',
@@ -68,13 +68,13 @@ $scope.quotations = [ { key : 'Duplex', value : '7.5' },
             key4: '',
             key5: '',
             key6: '',
-            value1: '45.58 kg',
-            value2: '3.75 kg',
+            value1: '67.435 kg',
+            value2: '5.69 kg',
             value3: '4.05 kg',
             value4: '',
             value5: '',
             value6: ''
-        }, {
+        },{
             location: 'Liberty, Civil Lines, Allahabad',
             title: 'Liberty',
             img: 'liberty',
@@ -84,26 +84,26 @@ $scope.quotations = [ { key : 'Duplex', value : '7.5' },
             key4: '',
             key5: '',
             key6: '',
-            value1: '30 kg',
+            value1: '95 kg',
             value2: '1.550 kg',
             value3: '',
             value4: '',
             value5: '',
             value6: ''
-        }, {
+        },{
             location: '48/6, Strachey Road, Civil Lines, Allahabad',
             title: 'Madan Lifestyle and Collection',
             img: 'madan',
             key1: 'Paper Waste : ',
             key2: 'Polythene : ',
-            key3: '',
-            key4: '',
+            key3: 'Cartons : ',
+            key4: 'Duplex : ',
             key5: '',
             key6: '',
             value1: '1540 kg',
-            value2: '304 kg',
-            value3: '',
-            value4: '',
+            value2: '330.1 kg',
+            value3: '230.2 kg',
+            value4: '213.1 kg',
             value5: '',
             value6: ''
         },{
@@ -112,13 +112,13 @@ $scope.quotations = [ { key : 'Duplex', value : '7.5' },
             img: 'lenovo',
             key1: 'Paper Waste : ',
             key2: 'Polythene : ',
-            key3: '',
+            key3: 'Books : ',
             key4: '',
             key5: '',
             key6: '',
             value1: '41.665 kg',
             value2: '0.305 kg',
-            value3: '',
+            value3: '57 kg',
             value4: '',
             value5: '',
             value6: ''
@@ -138,7 +138,7 @@ $scope.quotations = [ { key : 'Duplex', value : '7.5' },
             value4: '',
             value5: '',
             value6: ''
-        }, {
+        },{
             location: 'Patanjali,Naini ,Allahabad',
             title: 'Patanjali',
             img: 'patanjali',
@@ -148,7 +148,7 @@ $scope.quotations = [ { key : 'Duplex', value : '7.5' },
             key4: '',
             key5: '',
             key6: '',
-            value1: '223.75 kg',
+            value1: '318.75 kg',
             value2: '',
             value3: '',
             value4: '',
@@ -170,7 +170,7 @@ $scope.quotations = [ { key : 'Duplex', value : '7.5' },
             value4: '',
             value5: '',
             value6: ''
-        }, {
+        },{
             location: 'Anant Bazaar,Naini ,Allahabad',
             title: 'Anant Bazaar',
             img: 'anant_bazaar',
@@ -218,7 +218,7 @@ $scope.quotations = [ { key : 'Duplex', value : '7.5' },
             value4: '',
             value5: '',
             value6: ''
-        }, {
+        },{
             location: 'Chaddha electric works',
             title: 'Chaddha electic works',
             img: 'Chaddha_electric_works',
@@ -234,7 +234,7 @@ $scope.quotations = [ { key : 'Duplex', value : '7.5' },
             value4: '',
             value5: '',
             value6: ''
-        }, {
+        },{
             location: 'Housing, Allahabad',
             title: 'Housing',
             img: 'housing',
@@ -250,7 +250,7 @@ $scope.quotations = [ { key : 'Duplex', value : '7.5' },
             value4: '',
             value5: '',
             value6: ''
-        }, {
+        },{
             location: 'Motilal & Sons, Allahabad',
             title: 'Motilal & Sons',
             img: 'mns',
@@ -266,7 +266,7 @@ $scope.quotations = [ { key : 'Duplex', value : '7.5' },
             value4: '',
             value5: '',
             value6: ''
-        }, {
+        },{
             location: 'Prince Dresses, Allahabad',
             title: 'Prince Dresses',
             img: 'prince',
