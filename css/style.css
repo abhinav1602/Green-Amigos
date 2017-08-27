@@ -3,7 +3,9 @@ body{
 	background-color:white;
 	background:#fafafa;
 }
-
+#home_page{
+	background:white; 
+}
 nav{margin-top:-25px;
 	background:#fafafa;
 	font-family:'Ropa Sans',sans-serif;
@@ -14,9 +16,14 @@ nav{margin-top:-25px;
 	float:right;
 
 }
+#client-img-col #info{visibility:hidden;position:absolute;z-index: 1;border-radius: 6px;margin-top:150px;
+	margin-left: 5px;
+    padding: 5px 0;background-color: black;text-align: center;width:200px;}
+#client-img-col:hover #info{visibility: visible;}
+blockquote{border-left:5px solid #558b2f}
 .custom-text2{font-family:'Ropa Sans',sans-serif;}
 nav li :hover{border-bottom: 4px solid green;color:white;}
-nav li a{color:#558b2f;font-size:18px;}
+nav li a{color:#33691e;font-size:18px;}
 nav .brand-logo{color:#558b2f;}
 nav .active{border-bottom: 4px solid green;}
 nav a{color:#558b2f;font-size:18px;}	
@@ -31,22 +38,21 @@ nav a{color:#558b2f;font-size:18px;}
 .gallery{margin-bottom:0.05rem;}
 #big1,#big2{float:left;box-sizing:border-box;padding:0 0.05rem;margin-bottom:0.05rem;max-height:360px;overflow:hidden}
 .image{transition:all .5s;}
+
 .image:hover {transform:scale(1.2);display:block;overflow: hidden}
 .logo-icon {
 	margin-top:8px;
 	height:54px;
 	width:64px;
 }
-.image{
-	
-}
+
 @media only screen and (min-width:760px) {
-	.anim{
+	.anim,.anim1{
 		cursor:url(../leaf.png), auto;
 	}
 	#tree{
-    margin-top: 59px;
-  	margin-left:28%;
+    margin-top: 75px;
+  	margin-left:24%;
   	height:140px;
   	width:182px;
 	}
@@ -69,26 +75,37 @@ nav a{color:#558b2f;font-size:18px;}
 	#about_page {
 	background:url('../logo.png');
 	background-repeat: no-repeat;
-	background-size: 50% 30%;
+	background-size: 60% 30%;
     background-position: 50% 55%;
 
 }
 }
+.client-img{
+	max-height: 280px;
+	min-height: 280px;
+	width: 100%;
+}
 @media only screen and (max-width:1024px) {
 	#tree{
     margin-top: 59px;
-  	margin-left:28%;
-  	height:340px;
-  	width:272px;
+  	margin-left:20%;
+  	height:335px;
+  	width:335px;
 	}
+	
 }
 @media only screen and (max-width:499px) {
+	.client-img{
+	max-height: 280px;
+	min-height: 280px;
+	width: 100%;
+}
 	
 	.slider {
-		min-height:370px;
+		min-height:390px;
 	}
 	#tree {
-		margin-left:30%;
+		margin-left:25%;
 		height:140px;
   	width:182px;
 	}
